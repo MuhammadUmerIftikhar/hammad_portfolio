@@ -24,7 +24,7 @@ interface HeroProps {
    Profile photo with orbital icons
 ──────────────────────────────────────────────────────────── */
 function ProfilePhoto({ src }: { src?: string }) {
-  const imageSrc = src ?? "/HammadDaudProfileImage.png";
+  const imageSrc = src ?? "/hammaddaud.jpeg";
 
   return (
     <div className="relative flex items-center justify-center select-none">
